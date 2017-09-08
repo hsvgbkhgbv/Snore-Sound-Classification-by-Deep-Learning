@@ -1,0 +1,1328 @@
+################################################################################
+VGG19
+################################################################################
+snore_spectrogram_1_VGG19_f1
+
+kernel=linear
+C = 0.003
+UAR_train: 1.0
+UAR_devel: 0.386853649068
+
+This is the train&devel data recall score:  0.995967741935
+[[329   0   0   0]
+ [  1  61   0   0]
+ [  0   0 151   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.491098876482
+[[113   1  39   2]
+ [  4  15   8   0]
+ [ 30   3  32   0]
+ [  2   3   8   3]]
+********************************************************************************
+snore_spectrogram_1_VGG19_f2:
+
+kernel=linear
+C = 0.011
+UAR_train: 0.981798245614
+UAR_devel: 0.455535714286
+
+This is the train&devel data recall score:  0.939264813624
+[[326   0   3   0]
+ [  4  58   0   0]
+ [ 19   0 132   0]
+ [  1   0   0  22]]
+
+
+This is the test data recall score:  0.398920136017
+[[116   1  36   2]
+ [  5  10  11   1]
+ [ 32   2  31   0]
+ [  4   5   7   0]]
+********************************************************************************
+snore_spectrogram_2_VGG19_f1:
+
+kernel=linear
+C=0.001
+UAR_train: 1.0
+UAR_devel: 0.325591356108
+
+This is the train&devel data recall score:  0.979411450545
+[[329   0   0   0]
+ [  1  61   0   0]
+ [ 10   0 141   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.490232113317
+[[117   3  34   1]
+ [  4  18   1   4]
+ [ 33   1  31   0]
+ [  7   3   5   1]]
+********************************************************************************
+snore_spectrogram_2_VGG19_f2:
+
+kernel=linear
+C=0.03
+UAR_train: 1.0
+UAR_devel: 0.301918995859
+
+This is the train&devel data recall score:  0.995033112583
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  3   0 148   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.463074682934
+[[115   6  32   2]
+ [  7  15   1   4]
+ [ 32   1  32   0]
+ [  7   4   4   1]]
+********************************************************************************
+snore_spectrogram_3_VGG19_f1:
+
+kernel=linear
+C=0.0004
+UAR_train: 0.945723684211
+UAR_devel: 0.329663561077
+
+This is the train&devel data recall score:  0.938369062904
+[[327   0   2   0]
+ [  4  58   0   0]
+ [ 20   0 131   0]
+ [  1   0   0  22]]
+
+
+This is the test data recall score:  0.560349749563
+[[127   3  24   1]
+ [  1  23   1   2]
+ [ 31   1  33   0]
+ [  2   5   8   1]]
+********************************************************************************
+snore_spectrogram_3_VGG19_f2:
+
+kernel=linear
+C=0.008
+UAR_train: 0.986842105263
+UAR_devel: 0.330242624224
+
+This is the train&devel data recall score:  0.951536338751
+[[325   0   4   0]
+ [  2  60   0   0]
+ [ 16   0 135   0]
+ [  1   0   0  22]]
+
+
+This is the test data recall score:  0.588662002573
+[[121   5  27   2]
+ [  2  25   0   0]
+ [ 27   1  34   3]
+ [  4   2   8   2]]
+********************************************************************************
+snore_spectrogram_4_VGG19_f1:
+
+kernel=linear
+C=0.0007
+UAR_train: 0.848402255639
+UAR_devel: 0.335487189441
+
+This is the train&devel data recall score:  0.841809755234
+[[321   0   8   0]
+ [  8  54   0   0]
+ [ 33   0 118   0]
+ [  5   0   1  17]]
+
+
+This is the test data recall score:  0.435088686702
+[[125   4  26   0]
+ [  3  14  10   0]
+ [ 38   0  27   0]
+ [  2   4  10   0]]
+********************************************************************************
+snore_spectrogram_4_VGG19_f2:
+
+kernel=linear
+C=0.03
+UAR_train: 0.988377192982
+UAR_devel: 0.327309135611
+
+This is the train&devel data recall score:  0.951751129347
+[[325   1   3   0]
+ [  3  59   0   0]
+ [ 20   0 131   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.406186529271
+[[117   5  32   1]
+ [  5  11  11   0]
+ [ 35   2  26   2]
+ [  3   2  10   1]]
+********************************************************************************
+snore_spectrogram_5_VGG19_f1:
+
+kernel=linear
+C=0.001
+UAR_train: 0.983333333333
+UAR_devel: 0.399966356108
+
+This is the train&devel data recall score:  0.96396453944
+[[328   0   1   0]
+ [  3  59   0   0]
+ [ 14   0 137   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.459435024354
+[[110   1  43   1]
+ [  9  10   7   1]
+ [ 29   3  33   0]
+ [  3   2   7   4]]
+********************************************************************************
+snore_spectrogram_5_VGG19_f2:
+
+kernel=linear
+C=0.02
+UAR_train: 1.0
+UAR_devel: 0.437267727743
+
+This is the train&devel data recall score:  0.986033967101
+[[329   0   0   0]
+ [  1  61   0   0]
+ [  6   0 145   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.428511281132
+[[114   0  40   1]
+ [ 11  11   4   1]
+ [ 33   3  29   0]
+ [  3   3   8   2]]
+********************************************************************************
+snore_spectrogram_6_VGG19_f1:
+
+kernel=linear
+C=0.0021
+UAR_train: 1.0
+UAR_devel: 0.378081651139
+
+This is the train&devel data recall score:  0.995928863302
+[[328   0   1   0]
+ [  0  62   0   0]
+ [  2   0 149   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.541683898539
+[[105   2  47   1]
+ [  3  21   2   1]
+ [ 32   3  30   0]
+ [  4   2   6   4]]
+********************************************************************************
+snore_spectrogram_6_VGG19_f2:
+
+kernel=linear
+C=0.016
+UAR_train: 0.985354010025
+UAT_devel: 0.397212085921
+
+This is the train&devel data recall score:  0.973820557008
+[[326   0   3   0]
+ [  1  61   0   0]
+ [ 12   0 139   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.475538208804
+[[102   2  51   0]
+ [  6  19   2   0]
+ [ 36   2  27   0]
+ [  3   2   9   2]]
+********************************************************************************
+snore_spectrogram_7_VGG19_f1:
+
+kernel=linear
+C=0.0008
+UAR_train: 0.973511904762
+UAr_devel: 0.418185817805
+
+This is the train&devel data recall score:  0.968035676138
+[[329   0   0   0]
+ [  3  59   0   0]
+ [ 12   0 139   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.480932933554
+[[114   0  41   0]
+ [  2  15   9   1]
+ [ 30   2  33   0]
+ [  3   3   8   2]]
+********************************************************************************
+snore_spectrogram_7_VGG19_f2:
+
+kernel=linear
+C=0.012
+UAR_train: 0.998511904762
+UAR_devel: 0.411512034161
+
+This is the train&devel data recall score:  0.974755186361
+[[326   0   3   0]
+ [  2  60   0   0]
+ [  9   0 142   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.408093523114
+[[112   0  43   0]
+ [ 12  10   5   0]
+ [ 30   2  31   2]
+ [  2   4   9   1]]
+********************************************************************************
+snore_melspectrogram_1_VGG19_f1:
+
+kernel=linear
+C=0.0015
+UAR_train: 0.932612781955
+UAR_devel: 0.36260934265
+
+This is the train&devel data recall score:  0.871613370038
+[[323   0   6   0]
+ [ 11  49   2   0]
+ [ 28   2 121   0]
+ [  2   0   0  21]]
+
+
+This is the test data recall score:  0.375693008455
+[[123   7  18   7]
+ [  2   5  19   1]
+ [ 29   3  30   3]
+ [  7   2   6   1]]
+********************************************************************************
+snore_melspectrogram_1_VGG19_f2:
+
+kernel=linear
+C=0.04
+UAR_train: 0.976973684211
+UAR_devel: 0.328537137681
+
+This is the train&devel data recall score:  0.949413379055
+[[326   0   3   0]
+ [  5  57   0   0]
+ [ 17   0 134   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.345498173422
+[[120   8  21   6]
+ [  2   6  18   1]
+ [ 30  11  21   3]
+ [ 11   0   4   1]]
+********************************************************************************
+snore_spectrogram_9_VGG19_f1:
+
+kernel=linear
+C=0.0012
+UAR_train: 0.996710526316
+UAR_devel: 0.357039984472
+
+This is the train&devel data recall score:  0.981962830403
+[[328   0   1   0]
+ [  1  61   0   0]
+ [  8   0 143   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.486958632019
+[[119   0  34   2]
+ [  7  16   4   0]
+ [ 35   2  26   2]
+ [  2   3   8   3]]
+********************************************************************************
+snore_spectrogram_9_VGG19_f2:
+
+kernel=linear
+C=0.003
+UAR_train: 0.873966165414
+UAR_devel: 0.374569099379
+
+This is the train&devel data recall score:  0.842024545831
+[[321   1   7   0]
+ [  9  53   0   0]
+ [ 37   0 114   0]
+ [  3   2   0  18]]
+
+
+This is the test data recall score:  0.444594361731
+[[123   1  29   2]
+ [ 10  12   5   0]
+ [ 36   1  27   1]
+ [  6   1   7   2]]
+********************************************************************************
+snore_spectrogram_8_VGG19_f1:
+
+kernel=linear
+C=0.0022
+UAR_train: 1.0
+UAR_devel: 0.316453804348
+
+This is the train&devel data recall score:  0.98281970249
+[[326   0   3   0]
+ [  0  62   0   0]
+ [  9   0 142   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.44764411589
+[[114   7  34   0]
+ [  5  16   4   2]
+ [ 39   0  26   0]
+ [  4   7   4   1]]
+********************************************************************************
+snore_spectrogram_8_VGG19_f2:
+
+kernel=linear
+C=0.05
+UAR_train: 1.0
+UAR_devel: 0.297543995859
+
+This is the train&devel data recall score:  0.988546468327
+[[327   0   2   0]
+ [  0  62   0   0]
+ [  6   0 145   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.439091076188
+[[116   9  30   0]
+ [  9  16   2   0]
+ [ 36   2  27   0]
+ [  7   6   3   0]]
+********************************************************************************
+snore_spectrogram_10_VGG19_f1:
+
+kernel=linear
+C=0.013
+UAR_train: 1.0
+UAR_devel: 0.339399585921
+
+This is the train&devel data recall score:  0.995033112583
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  3   0 148   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.343715249058
+[[106   8  36   5]
+ [  7   7  11   2]
+ [ 35   6  24   0]
+ [  5   4   6   1]]
+********************************************************************************
+snore_spectrogram_10_VGG19_f2:
+
+kernel=linear
+C=0.043
+UAR_train: 0.980043859649
+UAR_devel: 0.347439829193
+
+This is the train&devel data recall score:  0.952763515966
+[[327   0   2   0]
+ [  5  56   1   0]
+ [ 12   1 138   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.336729160923
+[[108   7  35   5]
+ [  8   8   9   2]
+ [ 36   6  23   0]
+ [  9   3   4   0]]
+********************************************************************************
+################################################################################
+AlexNet
+################################################################################
+snore_spectrogram_1_AlexNet_f1:
+
+kernel=linear
+C=0.0013
+UAR_train: 0.970175438596
+UAR_devel: 0.424901009317
+
+This is the train&devel data recall score:  0.965717162246
+[[325   0   4   0]
+ [  2  60   0   0]
+ [ 14   0 137   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.600066917103
+[[121   5  28   1]
+ [  1  22   4   0]
+ [ 33   0  32   0]
+ [  2   3   6   5]]
+********************************************************************************
+snore_spectrogram_1_AlexNet_f2:
+
+kernel=linear
+C=0.0238
+UAR_train: 0.988377192982
+UAR_devel: 0.421388457557
+
+This is the train&devel data recall score:  0.972203806502
+[[327   0   2   0]
+ [  2  60   0   0]
+ [ 11   0 140   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.595600415863
+[[123   3  28   1]
+ [  1  22   4   0]
+ [ 33   1  30   1]
+ [  1   5   5   5]]
+********************************************************************************
+snore_spectrogram_2_AlexNet_f1:
+
+kernel=linear
+C=0.002
+UAR_train: 1.0
+UAR_devel: 0.355916149068
+
+This is the train&devel data recall score:  0.998344370861
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  1   0 150   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.519660991637
+[[126   6  22   1]
+ [  6  20   1   0]
+ [ 38   1  26   0]
+ [  9   3   2   2]]
+********************************************************************************
+snore_spectrogram_2_AlexNet_f2:
+
+kernel=linear
+C=0.008
+UAR_train: 0.942481203008
+UAR_devel: 0.372224378882
+
+This is the train&devel data recall score:  0.946666445
+[[322   1   6   0]
+ [  1  61   0   0]
+ [ 20   0 131   0]
+ [  1   0   0  22]]
+
+
+This is the test data recall score:  0.542731883558
+[[128   5  21   1]
+ [  4  23   0   0]
+ [ 36   1  28   0]
+ [ 11   1   3   1]]
+********************************************************************************
+snore_spectrogram_3_AlexNet_f1:
+
+kernel=linear
+C=0.0004
+UAR_train: 0.935902255639
+UAR_devel: 0.346199534161
+
+This is the train&devel data recall score:  0.955432724515
+[[327   0   2   0]
+ [  1  61   0   0]
+ [ 17   0 134   0]
+ [  1   0   0  22]]
+
+
+This is the test data recall score:  0.507744290506
+[[123   6  25   1]
+ [  4  23   0   0]
+ [ 44   0  21   0]
+ [  8   2   5   1]]
+********************************************************************************
+snore_spectrogram_3_AlexNet_f2:
+
+kernel=linear
+C=0.02
+UAR_train: 0.996710526316
+UAR_devel: 0.354591097308
+
+This is the train&devel data recall score:  0.994273234163
+[[328   0   1   0]
+ [  0  62   0   0]
+ [  3   0 148   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.495461412094
+[[113   6  36   0]
+ [  4  23   0   0]
+ [ 40   1  22   2]
+ [ 13   0   2   1]]
+********************************************************************************
+snore_spectrogram_4_AlexNet_f1:
+
+kernel=linear
+C=0.008
+UAR_train: 1.0
+UAR_devel: 0.384031444099
+
+This is the train&devel data recall score:  0.993377483444
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  4   0 147   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.597089249609
+[[112  13  29   1]
+ [  1  22   3   1]
+ [ 29   1  35   0]
+ [  5   0   6   5]]
+********************************************************************************
+snore_spectrogram_4_AlexNet_f2:
+
+kernel=linear
+C=0.1
+UAR_train: 1.0
+UAR_devel: 0.400063405797
+
+This is the train&devel data recall score:  0.990961975885
+[[328   0   1   0]
+ [  0  62   0   0]
+ [  5   0 146   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.552159440768
+[[115   9  29   2]
+ [  4  20   2   1]
+ [ 29   1  35   0]
+ [  6   2   5   3]]
+ *******************************************************************************
+ snore_spectrogram_5_AlexNet_f1:
+
+ kernel=linear
+ C=0.0016
+ UAR_train: 0.980043859649
+ UAR_devel: 0.362202380952
+
+This is the train&devel data recall score:  0.968892548224
+[[327   0   2   0]
+ [  2  60   0   0]
+ [ 13   0 138   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.627974795515
+[[131   5  19   0]
+ [  0  22   3   2]
+ [ 31   2  31   1]
+ [  4   2   4   6]]
+********************************************************************************
+snore_spectrogram_5_AlexNet_f2:
+
+kernel=linear
+C=0.1
+UAR_train: 1.0
+UAR_devel: 0.400063405797
+
+This is the train&devel data recall score:  1.0
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  0   0 151   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.61383087492
+[[127   4  24   0]0.006	0.971929824561	0.430470367495
+ [  0  22   3   2]
+ [ 34   1  29   1]
+ [  5   2   3   6]]
+********************************************************************************
+snore_spectrogram_6_AlexNet_f1:
+
+kernel=linear
+C=0.0005
+UAR_train: 0.910855263158
+UAR_test: 0.350194099379
+
+This is the train&devel data recall score:  0.917566883883
+[[327   0   2   0]
+ [  3  59   0   0]
+ [ 35   0 116   0]
+ [  1   0   0  22]]
+
+
+This is the test data recall score:  0.579445248598
+[[132   5  17   1]
+ [  2  17   5   3]
+ [ 33   2  30   0]
+ [  5   2   3   6]]
+********************************************************************************
+snore_spectrogram_6_AlexNet_f2:
+
+kernel=linear
+C=0.01
+UAR_train: 0.968687343358
+UAR_devel: 0.355307971014
+
+This is the train&devel data recall score:  0.943434105019
+[[324   0   5   0]
+ [  2  60   0   0]
+ [ 27   0 124   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.596016852771
+[[134   4  15   2]
+ [  2  18   3   4]
+ [ 36   2  27   0]
+ [  6   2   1   7]]
+********************************************************************************
+snore_spectrogram_7_AlexNet_f1:
+
+kernel=linear
+C=0.003
+UAR_train: 1.0
+UAR_devel: 0.371388457557
+
+This is the train&devel data recall score:  0.977930572339
+[[328   0   1   0]
+ [  2  60   0   0]
+ [  8   0 143   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.61193163542
+[[125   6  24   0]
+ [  2  23   1   1]
+ [ 32   1  31   1]
+ [  5   2   4   5]]
+********************************************************************************
+snore_spectrogram_7_AlexNet_f2:
+
+kernel=linear
+C=0.008
+UAR_train: 0.965397869674
+UAR_devel: 0.373299689441
+
+This is the train&devel data recall score:  0.944992740491
+[[327   0   2   0]
+ [  2  59   1   0]
+ [ 25   0 126   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.585232285636
+[[132   5  18   0]
+ [  2  21   1   3]
+ [ 34   0  30   1]
+ [  5   2   5   4]]
+********************************************************************************
+snore_melspectrogram_1_AlexNet_f1:
+
+kernel=linear
+C=0.0024
+UAR_train: 0.951973684211
+UAR_devel: 0.454031444099
+
+This is the train&devel data recall score:  0.940999361059
+[[328   0   1   0]
+ [  5  57   0   0]
+ [ 21   2 128   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.436335412646
+[[119   5  23   8]
+ [  3  11  12   1]
+ [ 26   5  33   1]
+ [  5   5   5   1]]
+********************************************************************************
+snore_melspectrogram_1_AlexNet_f2:
+
+kernel=linear
+C=0.02
+UAR_train: 0.947196115288
+UAR_devel: 0.445073110766
+
+This is the train&devel data recall score:  0.912521046408
+[[327   0   2   0]
+ [  7  53   2   0]
+ [ 27   3 121   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.412730045492
+[[123   3  23   6]
+ [  6   9  11   1]
+ [ 28   6  30   1]
+ [  4   6   5   1]]
+********************************************************************************
+snore_spectrogram_9_AlexNet_f1:
+
+kernel=linear
+C=0.0019
+UAR_train: 0.996710526316
+UAR_devel: 0.362078804348
+
+This is the train&devel data recall score:  0.990066225166
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  6   0 145   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.556085435622
+[[121   5  26   3]
+ [  1  24   2   0]
+ [ 31   2  32   0]
+ [  7   1   7   1]]
+********************************************************************************
+snore_spectrogram_9_AlexNet_f2:
+
+kernel=linear
+C=0.026
+UAR_train: 0.996710526316
+UAR_devel: 0.377655279503
+
+This is the train&devel data recall score:  0.993377483444
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  4   0 147   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.524167413381
+[[127   4  21   3]
+ [  3  22   2   0]
+ [ 38   1  26   0]
+ [  6   3   6   1]]
+********************************************************************************
+snore_spectrogram_8_AlexNet_f1:
+
+kernel=linear
+C=0.002
+UAR_train: 0.996710526316
+UAR_devel: 0.311560559006
+
+This is the train&devel data recall score:  0.989442219046
+[[326   0   3   0]
+ [  0  62   0   0]
+ [  5   0 146   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.52715111203
+[[134   6  13   2]
+ [  7  19   0   1]
+ [ 37   0  27   1]
+ [  5   4   5   2]]
+********************************************************************************
+snore_spectrogram_8_AlexNet_f2:
+
+kernel=linear
+C=0.057
+UAR_train: 1.0
+UAR_devel: 0.316495212215
+
+This is the train&devel data recall score:  0.993377483444
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  4   0 147   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.500607997886
+[[132   5  15   3]
+ [  6  19   2   0]
+ [ 39   1  25   0]
+ [  5   6   4   1]]
+********************************************************************************
+snore_spectrogram_10_AlexNet_f1:
+
+kernel=linear
+C=0.006
+UAR_train: 0.971929824561
+UAR_devel: 0.430470367495
+
+This is the train&devel data recall score:  0.93934373192
+[[328   0   1   0]
+ [  5  57   0   0]
+ [ 23   1 127   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.429830093741
+[[121   6  24   4]
+ [  6  12   9   0]
+ [ 36   4  24   1]
+ [ 10   0   4   2]]
+********************************************************************************
+snore_spectrogram_10_AlexNet_f2:
+
+kernel=linear
+C=0.24
+UAR_train: 0.996710526316
+UAR_devel: 0.383464673913
+
+This is the train&devel data recall score:  0.985995088468
+[[328   0   1   0]
+ [  0  62   0   0]
+ [  8   0 143   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.413506628527
+[[112   3  34   6]
+ [  4  11  12   0]
+ [ 31   2  30   2]
+ [  4   0  11   1]]
+********************************************************************************
+################################################################################
+VGG16
+################################################################################
+snore_spectrogram_1_VGG16_f1:
+
+kernel=linear
+C=0.002
+UAR_train: 1.0
+UAR_devel: 0.34260934265
+
+This is the train&devel data recall score:  0.995033112583
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  3   0 148   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.452626711699
+[[118   4  32   1]
+ [  5  10  11   1]
+ [ 29   0  36   0]
+ [  5   4   5   2]]
+********************************************************************************
+snore_spectrogram_1_VGG16_f2:
+
+kernel=linear
+C=0.008
+UAR_train: 0.97850877193
+UAR_devel: 0.344113612836
+
+This is the train&devel data recall score:  0.907532194698
+[[321   0   8   0]
+ [  7  55   0   0]
+ [ 22   0 129   0]
+ [  2   0   0  21]]
+
+
+This is the test data recall score:  0.414296997059
+[[123   1  30   1]
+ [  8  10   7   2]
+ [ 36   1  28   0]
+ [  7   2   6   1]]
+********************************************************************************
+snore_spectrogram_2_VGG16_f1:
+
+kernel=linear
+C=0.002
+UAR_train: 1.0
+UAR_devel: 0.347648162526
+
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  0   0 151   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.52017105505
+[[103  11  37   4]
+ [  8  17   2   0]
+ [ 21   1  43   0]
+ [  3   4   7   2]]
+********************************************************************************
+snore_spectrogram_2_VGG16_f2:
+
+kernel=linear
+C=0.004
+UAR_train: 0.911231203008
+UAR_devel: 0.352589932712
+
+This is the train&devel data recall score:  0.887996103286
+[[322   1   6   0]
+ [  4  58   0   0]
+ [ 35   0 116   0]
+ [  2   1   0  20]]
+
+
+This is the test data recall score:  0.505660957173
+[[123   5  26   1]
+ [  9  14   2   2]
+ [ 30   1  34   0]
+ [  1   5   7   3]]
+********************************************************************************
+snore_spectrogram_3_VGG16_f1:
+
+kernel=linear
+C=0.0011
+UAR_train: 1.0
+UAR_devel: 0.370298266046
+
+This is the train&devel data recall score:  0.995033112583
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  3   0 148   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.543940412186
+[[114   6  30   5]
+ [  5  21   1   0]
+ [ 24   2  39   0]
+ [  4   6   5   1]]
+********************************************************************************
+snore_spectrogram_3_VGG16_f2:
+
+kernel=linear
+C=0.0074
+UAR_train: 0.991932957393
+UAR_devel: 0.346681547619
+
+This is the train&devel data recall score:  0.971814264972
+[[328   0   1   0]
+ [  0  62   0   0]
+ [ 10   0 141   0]
+ [  1   0   0  22]]
+
+
+This is the test data recall score:  0.442610973256
+[[112   6  33   4]
+ [  7  15   4   1]
+ [ 31   1  32   1]
+ [  5   5   6   0]]
+********************************************************************************
+snore_spectrogram_4_VGG16_f1:
+
+kernel=linear
+C=0.003
+UAR_train: 0.996710526316
+UAR_devel: 0.311056547619
+
+This is the train&devel data recall score:  0.976100192267
+[[329   0   0   0]
+ [  1  61   0   0]
+ [ 12   0 139   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.592550661704
+[[132   2  19   2]
+ [  3  18   6   0]
+ [ 33   1  31   0]
+ [  1   5   4   6]]
+********************************************************************************
+snore_spectrogram_4_VGG16_f2:
+
+kernel=linear
+C=0.005
+UAR_train: 0.761654135338
+UAR_devel: 0.313478907867
+
+This is the train&devel data recall score:  0.716264762694
+[[314   3  12   0]
+ [ 13  43   6   0]
+ [ 46   0 105   0]
+ [  6   2   3  12]]
+
+
+This is the test data recall score:  0.439261097326
+[[129   1  24   1]
+ [  2  15  10   0]
+ [ 39   2  24   0]
+ [  6   3   7   0]]
+********************************************************************************
+snore_spectrogram_5_VGG16_f1:
+
+kernel=linear
+C=0.002
+UAR_train: 1.0
+UAR_devel: 0.335128752588
+
+This is the train&devel data recall score:  0.988410596026
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  7   0 144   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.540751079864
+[[125   2  25   3]
+ [  4  17   6   0]
+ [ 31   3  31   0]
+ [  1   5   6   4]]
+********************************************************************************
+snore_spectrogram_5_VGG16_f2:
+
+kernel=linear
+C=0.013
+UAR_train: 0.996710526316
+UAR_devel: 0.326853649068
+
+This is the train&devel data recall score:  0.965445417646
+[[329   0   0   0]
+ [  2  60   0   0]
+ [ 16   0 135   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.535331943296
+[[127   2  24   2]
+ [  2  19   6   0]
+ [ 34   3  28   0]
+ [  2   5   6   3]]
+********************************************************************************
+snore_spectrogram_6_VGG16_f1:
+
+kernel=linear
+C=0.0007
+UAR_train: 0.966885964912
+UAR_devel: 0.303651009317
+
+This is the train&devel data recall score:  0.925298780725
+[[326   0   3   0]
+ [  5  57   0   0]
+ [ 25   0 126   0]
+ [  1   0   0  22]]
+
+
+This is the test data recall score:  0.530493233618
+[[124   2  28   1]
+ [  2  19   6   0]
+ [ 34   3  28   0]
+ [  6   2   5   3]]
+********************************************************************************
+snore_spectrogram_6_VGG16_f2:
+
+kernel=linear
+C=0.031
+UAR_train: 1.0
+UAR_devel: 0.304106495859
+
+This is the train&devel data recall score:  0.995928863302
+[[328   0   1   0]
+ [  0  62   0   0]
+ [  2   0 149   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.495931555004
+[[118   2  32   3]
+ [  0  18   8   1]
+ [ 35   2  28   0]
+ [  4   4   6   2]]
+********************************************************************************
+snore_spectrogram_7_VGG16_f1:
+
+kernel=linear
+C=0.003
+UAR_train: 1.0
+UAR_devel: 0.341056547619
+
+This is the train&devel data recall score:  0.996688741722
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  2   0 149   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.472287990534
+[[114   2  38   1]
+ [  2  17   8   0]
+ [ 32   3  30   0]
+ [  5   4   6   1]]
+********************************************************************************
+snore_spectrogram_7_VGG16_f2:
+
+kernel=linear
+C=0.015
+UAR_train: 0.996710526316
+UAR_devel: 0.335252329193
+
+This is the train&devel data recall score:  0.98268383019
+[[328   0   1   0]
+ [  0  62   0   0]
+ [ 10   0 141   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.467573350335
+[[123   3  28   1]
+ [  4  17   6   0]
+ [ 36   4  25   0]
+ [  4   5   6   1]]
+********************************************************************************
+snore_melspectrogram_1_VGG16_f1:
+
+kernel=linear
+C=0.0017
+UAR_train: 0.922478070175
+UAR_devel: 0.355307971014
+
+This is the train&devel data recall score:  0.887606529996
+[[325   0   4   0]
+ [  9  53   0   0]
+ [ 30   1 120   0]
+ [  2   0   0  21]]
+
+
+This is the test data recall score:  0.348397723095
+[[118   6  25   6]
+ [  3   5  18   1]
+ [ 33   6  25   1]
+ [  5   5   5   1]]
+********************************************************************************
+snore_melspectrogram_1_VGG16_f2:
+
+kernel=linear
+C=0.012
+UAR_train: 0.850093984962
+UAR_devel: 0.327267727743
+
+This is the train&devel data recall score:  0.816293165234
+[[324   0   5   0]
+ [ 12  45   5   0]
+ [ 39   2 110   0]
+ [  4   0   0  19]]
+
+
+This is the test data recall score:  0.342736478724
+[[125   4  21   5]
+ [  6   4  16   1]
+ [ 40   2  23   0]
+ [  5   5   5   1]]
+********************************************************************************
+snore_spectrogram_9_VGG16_f1:
+
+kernel=linear
+C=0.0011
+UAR_train: 1.0
+UAR_devel: 0.348869047619
+
+This is the train&devel data recall score:  0.983443708609
+[[329   0   0   0]
+ [  0  62   0   0]
+ [ 10   0 141   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.433638050271
+[[113   2  37   3]
+ [  5  13   8   1]
+ [ 31   3  30   1]
+ [  9   2   4   1]]
+********************************************************************************
+snore_spectrogram_9_VGG16_f2:
+
+kernel=linear
+C=0.007
+UAR_train: 0.983552631579
+UAR_devel: 0.322153856108
+
+This is the train&devel data recall score:  0.971990176936
+[[327   0   2   0]
+ [  0  62   0   0]
+ [ 16   0 135   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.475031304568
+[[121   1  29   4]
+ [  5  14   7   1]
+ [ 27   3  35   0]
+ [  4   2   9   1]]
+********************************************************************************
+snore-spectrogram_8_VGG16_f1:
+
+kernel=linear
+C=0.0019
+UAR_train: 0.996710526316
+UAR_devel: 0.342023162526
+
+This is the train&devel data recall score:  0.97678115239
+[[328   0   1   0]
+ [  0  62   0   0]
+ [  7   0 144   0]
+ [  1   0   0  22]]
+
+
+This is the test data recall score:  0.469108135741
+[[113   5  37   0]
+ [  7  16   3   1]
+ [ 30   2  32   1]
+ [  1   6   8   1]]
+********************************************************************************
+snore_spectrogram_8_VGG16_f2:
+
+kernel=linear
+C=0.041
+UAR_train: 1.0
+UAR_devel: 0.31873123706
+
+This is the train&devel data recall score:  0.993377483444
+[[329   0   0   0]
+ [  0  62   0   0]
+ [  4   0 147   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.454676155684
+[[113   5  35   2]
+ [  9  14   3   1]
+ [ 32   3  29   1]
+ [  1   5   8   2]]
+********************************************************************************
+snore_spectrogram_10_VGG16_f1:
+
+kernel=linear
+C=0.011
+UAR_train: 1.0
+UAR_devel: 0.363244047619
+
+This is the train&devel data recall score:  0.986033967101
+[[329   0   0   0]
+ [  1  61   0   0]
+ [  6   0 145   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.377902996048
+[[112  12  27   4]
+ [ 11   5  10   1]
+ [ 34   8  23   0]
+ [  7   1   4   4]]
+********************************************************************************
+snore_spectrogram_10_VGG16_f2:
+
+kernel=linear
+C=0.06
+UAR_train: 0.981798245614
+UAR_devel: 0.352374482402
+
+This is the train&devel data recall score:  0.959172402956
+[[327   0   2   0]
+ [  4  58   0   0]
+ [ 14   0 137   0]
+ [  0   0   0  23]]
+
+
+This is the test data recall score:  0.384354608951
+[[116   9  27   3]
+ [ 10   5  11   1]
+ [ 36   4  23   2]
+ [  4   1   7   4]]
+********************************************************************************

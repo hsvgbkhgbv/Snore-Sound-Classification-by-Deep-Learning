@@ -1,0 +1,57 @@
+################################################################################
+Spectrogram
+################################################################################
+snore_spectrogram_1:
+
+np.abs(stft(y=sig, n_fft=350, hop_length=175)), length=32000, cmap=viridis, no normalization before stft, add extra sig from initial
+********************************************************************************
+snore_spectrogram_2:
+
+librosa.amplitude_to_db(stft(y=sig, n_fft=256, hop_length=128)), length=32000, cmap=viridis, no normalization before stft, add extra sig from initial
+********************************************************************************
+snore_spectrogram_3:
+
+librosa.amplitude_to_db(stft(y=sig, n_fft=350, hop_length=175)), length=32000, cmap=viridis, no normalization before stft, add extra sig from initial
+********************************************************************************
+snore_spectrogram_4:
+
+np.abs(stft(y=sig, n_fft=350, hop_length=175)), length=44000, cmap=viridis, normalization before stft, add zeros padding if original signal length is less than 44000(the largest length)
+********************************************************************************
+snore_spectrogram_5:
+
+np.abs(stft(y=sig, n_fft=350, hop_length=175)), length=44000, cmap=viridis, no normalization before stft, add extra sig from initial if original signal length is less than 44000(the largest length)
+********************************************************************************
+snore_spectrogram_6:
+
+np.abs(stft(y=sig, n_fft=256, hop_length=128)), length=44000, cmap=viridis, no normalization before stft, add extra sig from initial
+********************************************************************************
+snore_spectrogram_7:
+
+np.abs(stft(y=sig, n_fft=400, hop_length=200)), length=44000, cmap=viridis, no normalization before stft, add extra sig from initial
+********************************************************************************
+snore_spectrogram_8:
+
+np.abs(stft(y=sig, n_fft=256, hop_length=128)), length=44000, cmap=viridis, normalization before stft, add zeros padding if original signal length is less than 44000(the largest length)
+********************************************************************************
+snore_spectrogram_9:
+
+np.abs(stft(y=sig, n_fft=350, hop_length=175)), length=44000, cmap=L, no normalization before stft, add extra sig from initial
+********************************************************************************
+snore_spectrogram_10:
+
+np.square(np.abs(stft(y=sig, n_fft=350, hop_length=175))), length=44000, cmap=viridis, no normalization before stft, add extra sig from initial
+################################################################################
+Mel-Spectrogram
+################################################################################
+snore_melspectrogram_1:
+
+melspectrogram(y=sig, sr=16000, n_fft=350, hop_length=175, power=2, n_mels=176), length=44000, cmap=viridis, no normalization before mel-stft, add extra sig from inital
+********************************************************************************
+
+################################################################################
+Wavelet
+################################################################################
+snore_wavelet_1:
+
+cwt(sig, widths, wavelet, sampling_period=6.25e-5), length=32000, cmap=viridis, nonormalization before process, add extra sig from initial, widths=np.linspace(1, 2000, 350), gaus4, overlapping=1/4
+********************************************************************************
